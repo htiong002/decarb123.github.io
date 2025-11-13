@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Basic SEO -->
-  <meta name="description" content="Decarb123 Pte Ltd is a Singapore-based investment holding company backing selective circular economy, low-carbon and sustainability ventures across Southeast Asia.">
+  <meta name="description" content="Decarb123 Pte Ltd is a Singapore-based private investment holding company backing selective circular economy, low-carbon and sustainability ventures across Southeast Asia.">
 
   <!-- Open Graph / Social preview -->
   <meta property="og:title" content="Decarb123 Pte Ltd – Sustainability & Circular Economy Ventures">
-  <meta property="og:description" content="Investment holding company backing circular economy, waste-to-resource, low-carbon and sustainability ventures across Southeast Asia.">
+  <meta property="og:description" content="Private investment holding company backing circular economy, waste-to-resource, low-carbon and sustainability ventures across Southeast Asia.">
   <meta property="og:url" content="https://www.decarb123.com/">
   <meta property="og:image" content="https://www.decarb123.com/logo-decarb123.png">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
       "addressLocality": "Singapore",
       "addressCountry": "SG"
     },
-    "description": "Investment holding company backing circular economy, low-carbon and sustainability ventures across Southeast Asia."
+    "description": "Private investment holding company backing circular economy, low-carbon and sustainability ventures across Southeast Asia."
   }
   </script>
 
@@ -43,14 +43,13 @@
       --bg-alt: rgba(7, 31, 23, 0.8);
       --bg-soft: rgba(8, 36, 27, 0.65);
       --surface: rgba(8, 40, 30, 0.9);
-      --border: rgba(120, 220, 180, 0.23);
-      --divider: rgba(255, 255, 255, 0.06);
+      --border: rgba(120, 220, 180, 0.24);
+      --divider: rgba(255, 255, 255, 0.08);
       --text: #f5f7f6;
-      --muted: #98a5a0;
+      --muted: #a1ada8;
       --accent: #46d08c;
       --accent-soft: rgba(70, 208, 140, 0.12);
       --accent-strong: #9ef37a;
-      --danger: #ff5a5f;
     }
 
     * {
@@ -89,7 +88,7 @@
         0 0 0 1px rgba(158, 243, 122, 0.06),
         0 0 0 120px rgba(6, 38, 26, 0.25),
         0 0 120px 0 rgba(0, 0, 0, 0.9);
-      opacity: 0.6;
+      opacity: 0.55;
       pointer-events: none;
       z-index: -2;
     }
@@ -112,11 +111,11 @@
       backdrop-filter: blur(16px);
       background: linear-gradient(
         to bottom,
-        rgba(2, 9, 8, 0.96),
+        rgba(2, 9, 8, 0.97),
         rgba(2, 9, 8, 0.90),
         transparent
       );
-      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
     }
 
     .nav-inner {
@@ -144,7 +143,7 @@
       height: 26px;
       width: auto;
       display: block;
-      filter: drop-shadow(0 0 8px rgba(70, 208, 140, 0.5));
+      filter: drop-shadow(0 0 6px rgba(70, 208, 140, 0.4));
     }
 
     .brand-text {
@@ -242,10 +241,14 @@
     }
 
     .hero-subtitle {
-      font-size: 0.94rem;
+      font-size: 0.95rem;
       color: var(--muted);
       max-width: 36rem;
       margin-bottom: 1.5rem;
+    }
+
+    .hero-subtitle + p {
+      margin-top: 0.4rem;
     }
 
     .hero-meta {
@@ -275,6 +278,22 @@
       flex-wrap: wrap;
       gap: 0.9rem;
       font-size: 0.82rem;
+      margin-bottom: 1.4rem;
+    }
+
+    .hero-short-links {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .hero-short-links a {
+      color: var(--muted);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
     }
 
     .cta-pill {
@@ -318,7 +337,7 @@
       border-radius: 1rem;
       padding: 1.1rem 1.2rem;
       border: 1px solid var(--border);
-      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+      box-shadow: 0 18px 32px rgba(0, 0, 0, 0.55);
       position: relative;
       overflow: hidden;
       animation: subtle-float 10s ease-in-out infinite alternate;
@@ -362,8 +381,8 @@
     .signal-pill {
       padding: 0.55rem 0.7rem;
       border-radius: 0.75rem;
-      background: rgba(3, 18, 14, 0.65);
-      border: 1px solid rgba(112, 201, 165, 0.45);
+      background: rgba(3, 18, 14, 0.7);
+      border: 1px solid rgba(112, 201, 165, 0.5);
       display: flex;
       flex-direction: column;
       gap: 0.18rem;
@@ -411,7 +430,7 @@
     .section-intro {
       font-size: 0.9rem;
       color: var(--muted);
-      max-width: 34rem;
+      max-width: 36rem;
       margin-top: 0.3rem;
     }
 
@@ -424,8 +443,8 @@
     .band-alt {
       background: radial-gradient(circle at 50% 0, rgba(20, 90, 60, 0.4), transparent 55%);
       border-radius: 1.5rem;
-      border: 1px solid rgba(255, 255, 255, 0.03);
-      padding: 2.0rem 1.6rem 2.2rem;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      padding: 2rem 1.6rem 2.2rem;
       margin-inline: -0.3rem;
     }
 
@@ -434,6 +453,7 @@
       display: grid;
       grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.4fr);
       gap: 1.4rem;
+      margin-bottom: 1.6rem;
     }
 
     .focus-card {
@@ -451,6 +471,10 @@
       letter-spacing: 0.12em;
       margin-bottom: 0.45rem;
       color: var(--muted);
+    }
+
+    .focus-card p + p {
+      margin-top: 0.55rem;
     }
 
     .focus-list {
@@ -536,6 +560,33 @@
       margin-top: 0.45rem;
     }
 
+    /* FAQ */
+    .faq-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 1.2rem;
+    }
+
+    .faq-item {
+      background: var(--bg-soft);
+      border-radius: 1rem;
+      padding: 0.9rem 1rem;
+      border: 1px solid var(--border);
+      font-size: 0.88rem;
+    }
+
+    .faq-item h3 {
+      font-size: 0.86rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.45rem;
+      color: var(--muted);
+    }
+
+    .faq-item p + p {
+      margin-top: 0.4rem;
+    }
+
     /* Contact */
     #contact p {
       font-size: 0.9rem;
@@ -558,13 +609,19 @@
       margin-top: 0.45rem;
     }
 
+    .contact-brief {
+      margin-top: 0.6rem;
+      font-size: 0.8rem;
+    }
+
     /* Shared hover behaviour for cards */
     .portfolio-item:hover,
     .focus-card:hover,
-    .contact-card:hover {
+    .contact-card:hover,
+    .faq-item:hover {
       transform: translateY(-2px);
-      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.6);
-      border-color: rgba(158, 243, 122, 0.6);
+      box-shadow: 0 18px 32px rgba(0, 0, 0, 0.6);
+      border-color: rgba(158, 243, 122, 0.65);
     }
 
     footer {
@@ -586,7 +643,8 @@
       #home,
       .focus-grid,
       .portfolio-grid,
-      .approach-grid {
+      .approach-grid,
+      .faq-grid {
         grid-template-columns: minmax(0, 1fr);
       }
 
@@ -615,7 +673,7 @@
         padding-top: 2.1rem;
       }
       .hero-title {
-        font-size: 1.85rem;
+        font-size: 1.9rem;
       }
       .signals-grid {
         grid-template-columns: minmax(0, 1fr);
@@ -636,6 +694,7 @@
           <li><a href="#focus">Focus</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#approach">Approach</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -655,9 +714,13 @@
           <span>sustainability</span> ventures across Southeast Asia.
         </h1>
         <p class="hero-subtitle">
-          Decarb123 Pte Ltd is a Singapore-based investment holding company.
-          We quietly support ventures that turn waste into value, build circular
-          systems and deliver measurable climate and social outcomes.
+          Decarb123 Pte Ltd is a Singapore-based private investment holding company.
+          We support ventures that turn waste into value, build circular flows and
+          deliver measurable environmental outcomes.
+        </p>
+        <p class="hero-subtitle">
+          Our role is quiet and long-term: governance, strategy and alignment behind
+          the operators, not in front of them.
         </p>
         <div class="hero-meta">
           <span>Circular economy</span>
@@ -665,7 +728,8 @@
           <span>Low-carbon transitions</span>
         </div>
         <p class="hero-meta-note">
-          We prefer to stay behind the operators. This page is a reference for counterparties, not a pitch deck.
+          We prefer to stay behind the operating entities. This page is a reference
+          point for counterparties, not a public pitch deck.
         </p>
         <div class="hero-links">
           <a href="#portfolio" class="cta-pill">
@@ -681,6 +745,11 @@
             </svg>
           </a>
         </div>
+        <div class="hero-short-links">
+          <span>➜ <a href="#focus">Our investment focus</a></span>
+          <span>➜ <a href="#approach">How we evaluate ventures</a></span>
+          <span>➜ <a href="#faq">Frequently asked questions</a></span>
+        </div>
       </div>
 
       <aside class="hero-signals" aria-label="Signals we watch">
@@ -689,25 +758,29 @@
           <div class="signal-pill">
             <div class="signal-title">Real circularity</div>
             <div class="signal-copy">
-              Models that displace linear “take-make-dispose” flows with durable, repeatable loops.
+              Ventures that move away from linear “take-make-dispose” flows
+              and build durable, repeatable loops.
             </div>
           </div>
           <div class="signal-pill">
             <div class="signal-title">Carbon impact</div>
             <div class="signal-copy">
-              Clear pathways to abatement, avoidance or sequestration, grounded in real-world operations.
+              Clear pathways to emissions reduction, avoidance or sequestration,
+              grounded in real-world operations.
             </div>
           </div>
           <div class="signal-pill">
-            <div class="signal-title">Execution partners</div>
+            <div class="signal-title">Execution depth</div>
             <div class="signal-copy">
-              Ventures anchored by credible technical operators and implementation partners, not slideware.
+              Technical operators and implementation partners with the ability
+              to deploy at site, not just on slides.
             </div>
           </div>
           <div class="signal-pill">
             <div class="signal-title">Measured outcomes</div>
             <div class="signal-copy">
-              The ability to evidence impact, not just claim it – through data, verification and lived results.
+              The ability to evidence environmental performance through data,
+              verification and lived project results.
             </div>
           </div>
         </div>
@@ -720,6 +793,10 @@
         <div>
           <div class="section-kicker">Investment focus</div>
           <h2 class="section-title">A holding company for <span>real-world</span> sustainability ventures</h2>
+          <p class="section-intro">
+            Decarb123 focuses on circular economy, waste-to-resource and low-carbon models
+            that can be deployed in the real economy across Southeast Asia.
+          </p>
         </div>
       </div>
       <div class="section-divider"></div>
@@ -727,9 +804,14 @@
         <div class="focus-card">
           <h3>Our role</h3>
           <p>
-            Decarb123 Pte Ltd is a private investment holding company incorporated in Singapore in 2024.
-            We do not operate as a consulting firm. Instead, we hold equity interests, provide governance
-            and help structure capital and partnerships around a small number of aligned ventures.
+            Decarb123 Pte Ltd is a private investment holding company incorporated in
+            Singapore in 2024. We do not operate as a consulting firm under the
+            Decarb123 name.
+          </p>
+          <p>
+            Instead, we hold equity interests, provide governance oversight and help
+            structure capital and partnerships around a focused set of sustainability
+            ventures.
           </p>
           <ul class="focus-list">
             <li>Incubation and ownership of sustainability-linked ventures.</li>
@@ -741,16 +823,40 @@
         <div class="focus-card">
           <h3>Not an operating arm</h3>
           <p>
-            Operational consulting, project delivery and day-to-day execution are carried out by
-            portfolio entities and implementation partners, not by Decarb123 itself. This separation
-            keeps our role focused, transparent and free from delivery conflicts.
+            Operational consulting, project delivery and day-to-day execution are carried
+            out by portfolio entities and implementation partners, not by Decarb123 itself.
+          </p>
+          <p>
+            This separation keeps our role focused, transparent and free from delivery
+            conflicts, while allowing portfolio companies to build their own brand and
+            capabilities.
           </p>
           <ul class="focus-list">
             <li>Portfolio companies lead on client work and implementation.</li>
-            <li>Decarb123 remains lean, with a long-term, selective outlook.</li>
+            <li>Decarb123 remains lean, long-term and selective.</li>
             <li>New opportunities are evaluated conservatively and confidentially.</li>
           </ul>
         </div>
+      </div>
+
+      <div class="focus-card">
+        <h3>What we look for</h3>
+        <p>
+          We selectively engage with ventures that meet three simple tests:
+        </p>
+        <ul class="focus-list">
+          <li>
+            Measurable environmental impact — in circularity, carbon reduction or
+            resource recovery.
+          </li>
+          <li>
+            Operators with technical depth and demonstrated ability to execute projects
+            in the field.
+          </li>
+          <li>
+            Commercial models with a credible path to sustainable scale in Southeast Asia.
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -761,17 +867,16 @@
           <div>
             <div class="section-kicker">Portfolio</div>
             <h2 class="section-title">Selected <span>current holdings</span></h2>
+            <p class="section-intro">
+              Decarb123 currently holds an equity interest in a focused sustainability
+              venture. Other opportunities are considered selectively and kept off the
+              public record until appropriate to announce.
+            </p>
           </div>
         </div>
         <div class="section-divider"></div>
 
-        <p class="section-intro">
-          Decarb123 currently holds an equity interest in a focused sustainability venture.
-          Additional opportunities are considered selectively, with an emphasis on clear
-          environmental and social outcomes and disciplined execution.
-        </p>
-
-        <div class="portfolio-grid" style="margin-top: 1.2rem;">
+        <div class="portfolio-grid">
           <article class="portfolio-item">
             <h3>Circular Transition Partners (CTP)</h3>
             <p class="tagline">Sustainability advisory, feasibility design and funding support</p>
@@ -808,6 +913,10 @@
           <div>
             <div class="section-kicker">How we work</div>
             <h2 class="section-title">Quiet, <span>hands-on</span> and long-term</h2>
+            <p class="section-intro">
+              Our approach is to stay close enough to matter, and far enough away to let
+              operators operate.
+            </p>
           </div>
         </div>
         <div class="section-divider"></div>
@@ -854,16 +963,85 @@
             <h3>What we are not</h3>
             <p>
               Decarb123 is not a fund manager, public vehicle or advisory shop. We do not
-              solicit capital from the public, and we do not market consulting services under
-              the Decarb123 name.
+              solicit capital from the public, and we do not market consulting services
+              under the Decarb123 name.
             </p>
             <p class="approach-note">
               All operational engagements, client-facing work and project delivery are run
-              through portfolio companies and implementation partners. This site is intended
-              as a high-level overview of Decarb123’s role as an investment holding company
-              only.
+              through portfolio companies and implementation partners. This site is a
+              high-level overview of Decarb123’s role as an investment holding company only.
             </p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="section-header">
+        <div>
+          <div class="section-kicker">FAQ</div>
+          <h2 class="section-title">Frequently asked <span>questions</span></h2>
+          <p class="section-intro">
+            A brief reference for counterparties who encounter Decarb123 alongside
+            portfolio companies and partners.
+          </p>
+        </div>
+      </div>
+      <div class="section-divider"></div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>What type of ventures does Decarb123 support?</h3>
+          <p>
+            Decarb123 focuses on circular economy, waste-to-resource and low-carbon models
+            that can be deployed in the real economy. We look for ventures with measurable
+            environmental outcomes and a credible path to sustainable scale in Southeast Asia.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Does Decarb123 operate as a consulting firm?</h3>
+          <p>
+            No. Decarb123 is a private investment holding company. Any consulting, advisory
+            or project delivery work is carried out by portfolio entities and implementation
+            partners, not by Decarb123 itself.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Does Decarb123 accept external investors?</h3>
+          <p>
+            Decarb123 does not market investment products or solicit capital from the public.
+            Engagements are conducted on a direct, bilateral basis with relevant counterparties.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What is Decarb123’s relationship with Circular Transition Partners?</h3>
+          <p>
+            Decarb123 is a shareholder and strategic partner in Circular Transition Partners
+            (CTP). CTP is an independent entity that provides sustainability advisory,
+            feasibility design and funding support under its own brand.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How can potential partners engage with Decarb123?</h3>
+          <p>
+            Potential partners typically engage through existing portfolio entities or via
+            direct email. We review opportunities selectively and respond where there is a
+            clear fit with our focus areas and approach.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Is this website marketing any specific transaction?</h3>
+          <p>
+            No. This site is informational only. It provides context on Decarb123’s role as
+            a holding company and its general areas of interest, rather than marketing any
+            specific deal, transaction or mandate.
+          </p>
         </div>
       </div>
     </section>
@@ -880,12 +1058,24 @@
 
       <div class="contact-card">
         <p>
-          For investment, partnership or portfolio-related enquiries, please get in touch via email:
+          For investment, partnership or portfolio-related enquiries, please get in touch
+          via email:
         </p>
         <p><strong>Email:</strong> <a href="mailto:hello@decarb123.com">hello@decarb123.com</a></p>
         <p class="contact-note">
           Decarb123 does not offer direct consulting services. Operational engagements are
           delivered by portfolio companies and implementation partners.
+        </p>
+        <p class="contact-brief">
+          <!--
+          OPTIONAL: When you have a PDF, place it at /files/decarb123-brief.pdf
+          and then you can safely uncomment the link below.
+          -->
+          <!--
+          <a href="/files/decarb123-brief.pdf" target="_blank" rel="noopener">
+            Download high-level company brief (PDF)
+          </a>
+          -->
         </p>
       </div>
     </section>
@@ -903,8 +1093,9 @@
   <footer>
     © 2025 Decarb123 Pte Ltd. All rights reserved. Registered office: 4 Battery Road, Singapore.
     <span class="footer-note">
-      This site is informational only and does not constitute an offer to invest, an invitation to acquire securities,
-      or a solicitation to provide advisory or consulting services.
+      This site is informational only. It does not constitute an offer to invest, an invitation
+      to acquire securities, or a solicitation to provide advisory or consulting services.
+      Decarb123 does not solicit capital from the public.
     </span>
   </footer>
 </body>
