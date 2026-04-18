@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="Vu77iRYZ8Ccj4j1DvTOStYLUTN9OFQ-RSYfK63FbtVI" />
   <meta charset="UTF-8" />
-  <title>Decarb123 Pte Ltd – Circular & Low-Carbon Ventures</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="Vu77iRYZ8Ccj4j1DvTOStYLUTN9OFQ-RSYfK63FbtVI" />
 
-  <!-- Basic SEO -->
-  <meta name="description" content="Decarb123 Pte Ltd is a Singapore-based private investment holding company backing selective circular, low-carbon and waste-to-resource ventures across Southeast Asia.">
+  <title>Decarb123 Pte Ltd — Circular, Low-Carbon & Resource-Smart Ventures</title>
+  <meta
+    name="description"
+    content="Decarb123 Pte Ltd is a Singapore-based private investment holding company backing selective circular, low-carbon and resource-smart ventures across Southeast Asia."
+  />
 
-  <!-- Open Graph / Social preview -->
-  <meta property="og:title" content="Decarb123 Pte Ltd – Sustainability & Circular Economy Ventures">
-  <meta property="og:description" content="Private investment holding company backing circular economy, waste-to-resource, low-carbon and sustainability ventures across Southeast Asia.">
-  <meta property="og:url" content="https://www.decarb123.com/">
-  <meta property="og:image" content="https://www.decarb123.com/logo-decarb123.png">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="Decarb123 Pte Ltd — Circular, Low-Carbon & Resource-Smart Ventures" />
+  <meta property="og:description" content="Private investment holding company backing selective circular, low-carbon and resource-smart ventures across Southeast Asia." />
+  <meta property="og:url" content="https://www.decarb123.com/" />
+  <meta property="og:image" content="https://www.decarb123.com/logo-decarb123.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="logo-decarb123.png" type="image/png">
+  <link rel="icon" href="logo-decarb123.png" type="image/png" />
 
-  <!-- Structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,29 +27,34 @@
     "name": "Decarb123 Pte Ltd",
     "url": "https://www.decarb123.com/",
     "logo": "https://www.decarb123.com/logo-decarb123.png",
+    "description": "Singapore-based private investment holding company backing selective circular, low-carbon and resource-smart ventures across Southeast Asia.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "4 Battery Road",
       "addressLocality": "Singapore",
       "addressCountry": "SG"
-    },
-    "description": "Private investment holding company backing circular economy, low-carbon and sustainability ventures across Southeast Asia."
+    }
   }
   </script>
 
   <style>
     :root {
-      --bg: #020908;
-      --bg-alt: rgba(7, 31, 23, 0.8);
-      --bg-soft: rgba(8, 36, 27, 0.65);
-      --surface: rgba(8, 40, 30, 0.9);
-      --border: rgba(120, 220, 180, 0.24);
-      --divider: rgba(255, 255, 255, 0.08);
-      --text: #f5f7f6;
-      --muted: #a1ada8;
-      --accent: #46d08c;
-      --accent-soft: rgba(70, 208, 140, 0.12);
-      --accent-strong: #9ef37a;
+      --bg: #060807;
+      --bg-2: #0a0f0c;
+      --panel: rgba(13, 18, 15, 0.72);
+      --panel-2: rgba(15, 22, 18, 0.92);
+      --line: rgba(255, 255, 255, 0.09);
+      --line-soft: rgba(255, 255, 255, 0.05);
+      --text: #f4f5f2;
+      --muted: #a8afa8;
+      --soft: #d8dfd9;
+      --accent: #9de27f;
+      --accent-2: #4dd08a;
+      --dark-green: #153025;
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      --radius: 24px;
+      --radius-sm: 16px;
+      --max: 1180px;
     }
 
     * {
@@ -64,120 +68,135 @@
     }
 
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, sans-serif;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
-        radial-gradient(circle at 10% 0%, #06251a 0, #020908 45%, #020609 100%);
+        radial-gradient(circle at 12% 0%, rgba(157, 226, 127, 0.08), transparent 28%),
+        radial-gradient(circle at 90% 10%, rgba(77, 208, 138, 0.07), transparent 24%),
+        linear-gradient(180deg, #070907 0%, #060807 100%);
       color: var(--text);
       line-height: 1.6;
-      min-height: 100vh;
-      position: relative;
       overflow-x: hidden;
     }
 
-    /* Orbital background motif */
     body::before {
       content: "";
       position: fixed;
-      inset: -200px;
-      margin: auto;
-      width: 900px;
-      height: 900px;
+      top: -220px;
+      right: -220px;
+      width: 760px;
+      height: 760px;
       border-radius: 50%;
-      border: 1px solid rgba(158, 243, 122, 0.08);
-      box-shadow:
-        0 0 0 1px rgba(158, 243, 122, 0.06),
-        0 0 0 120px rgba(6, 38, 26, 0.25),
-        0 0 120px 0 rgba(0, 0, 0, 0.9);
-      opacity: 0.55;
+      background: radial-gradient(circle, rgba(157, 226, 127, 0.09), transparent 64%);
+      pointer-events: none;
+      z-index: -2;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      bottom: -260px;
+      left: -220px;
+      width: 760px;
+      height: 760px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(77, 208, 138, 0.06), transparent 62%);
       pointer-events: none;
       z-index: -2;
     }
 
     a {
-      color: var(--accent);
+      color: inherit;
       text-decoration: none;
-      transition: color 0.2s ease, opacity 0.2s ease;
     }
 
-    a:hover {
-      color: var(--accent-strong);
-      opacity: 0.9;
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(var(--max), calc(100% - 40px));
+      margin: 0 auto;
     }
 
     header {
       position: sticky;
       top: 0;
-      z-index: 20;
-      backdrop-filter: blur(16px);
-      background: linear-gradient(
-        to bottom,
-        rgba(2, 9, 8, 0.97),
-        rgba(2, 9, 8, 0.90),
-        transparent
-      );
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      z-index: 40;
+      backdrop-filter: blur(14px);
+      background: rgba(6, 8, 7, 0.82);
+      border-bottom: 1px solid var(--line-soft);
     }
 
-    .nav-inner {
-      max-width: 1040px;
-      margin: 0 auto;
-      padding: 0.85rem 1.25rem;
+    .nav {
+      min-height: 76px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 1rem;
+      gap: 20px;
     }
 
     .brand {
       display: inline-flex;
       align-items: center;
-      gap: 0.55rem;
-      font-weight: 600;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      font-size: 0.8rem;
+      gap: 12px;
+    }
+
+    .brand img {
+      width: 34px;
+      height: 34px;
+      filter: drop-shadow(0 0 12px rgba(157, 226, 127, 0.16));
+    }
+
+    .brand-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .brand-name {
+      font-size: 0.98rem;
+      font-weight: 650;
+      letter-spacing: 0.01em;
+    }
+
+    .brand-sub {
+      font-size: 0.72rem;
       color: var(--muted);
-    }
-
-    .brand-logo {
-      height: 26px;
-      width: auto;
-      display: block;
-      filter: drop-shadow(0 0 6px rgba(70, 208, 140, 0.4));
-    }
-
-    .brand-text {
-      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
     }
 
     nav ul {
-      display: flex;
-      gap: 1.5rem;
       list-style: none;
-      font-size: 0.82rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
+      display: flex;
+      gap: 26px;
+      align-items: center;
+      flex-wrap: wrap;
     }
 
     nav a {
       color: var(--muted);
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      transition: color 0.18s ease;
       position: relative;
+    }
+
+    nav a:hover {
+      color: var(--text);
     }
 
     nav a::after {
       content: "";
       position: absolute;
       left: 0;
-      bottom: -0.35rem;
+      bottom: -8px;
       width: 0;
-      height: 2px;
-      background: linear-gradient(90deg, var(--accent), var(--accent-strong));
-      transition: width 0.22s ease;
-    }
-
-    nav a:hover {
-      color: var(--text);
+      height: 1.5px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      transition: width 0.18s ease;
     }
 
     nav a:hover::after {
@@ -185,516 +204,529 @@
     }
 
     main {
-      max-width: 1040px;
-      margin: 0 auto;
-      padding: 2.8rem 1.25rem 3.5rem;
-      position: relative;
-      z-index: 1;
+      padding: 34px 0 80px;
     }
 
     section {
-      margin-bottom: 4rem;
+      margin-bottom: 76px;
     }
 
-    /* Hero */
-    #home {
+    .hero {
       display: grid;
-      grid-template-columns: minmax(0, 1.9fr) minmax(0, 1.4fr);
-      gap: 2.5rem;
-      padding-top: 0.75rem;
+      grid-template-columns: minmax(0, 1.3fr) minmax(320px, 0.9fr);
+      gap: 28px;
+      align-items: start;
+      padding-top: 18px;
     }
 
-    .hero-badge {
+    .eyebrow {
       display: inline-flex;
       align-items: center;
-      gap: 0.4rem;
-      background: var(--accent-soft);
-      color: var(--accent-strong);
-      padding: 0.35rem 0.85rem;
-      border-radius: 999px;
-      font-size: 0.7rem;
-      font-weight: 600;
+      gap: 10px;
+      margin-bottom: 18px;
+      color: var(--soft);
+      font-size: 0.73rem;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
-      letter-spacing: 0.14em;
-      margin-bottom: 0.9rem;
-      border: 1px solid rgba(158, 243, 122, 0.45);
     }
 
-    .hero-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 999px;
-      background: var(--accent-strong);
-      box-shadow: 0 0 10px rgba(158, 243, 122, 0.9);
+    .eyebrow::before {
+      content: "";
+      width: 26px;
+      height: 1px;
+      background: linear-gradient(90deg, var(--accent), transparent);
+      display: inline-block;
     }
 
-    .hero-title {
-      font-size: clamp(2.1rem, 3.2vw, 2.7rem);
-      font-weight: 600;
-      margin-bottom: 0.9rem;
+    h1 {
+      font-size: clamp(2.6rem, 5vw, 5rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 720;
+      margin-bottom: 20px;
+      max-width: 11ch;
     }
 
-    .hero-title span {
-      background: linear-gradient(120deg, var(--accent-strong), var(--accent));
+    .gradient {
+      background: linear-gradient(120deg, var(--accent), var(--accent-2));
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
     }
 
-    .hero-subtitle {
-      font-size: 0.95rem;
+    .hero-copy {
       color: var(--muted);
-      max-width: 36rem;
-      margin-bottom: 1.5rem;
+      font-size: 1.04rem;
+      max-width: 60ch;
+      margin-bottom: 12px;
     }
 
-    .hero-subtitle + p {
-      margin-top: 0.4rem;
+    .hero-copy strong {
+      color: var(--soft);
+      font-weight: 620;
     }
 
-    .hero-meta {
+    .hero-band {
+      margin-top: 26px;
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--line);
+      max-width: 700px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .hero-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 1.4rem;
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: var(--muted);
-      margin-bottom: 0.7rem;
+      gap: 12px;
+      margin-top: 24px;
     }
 
-    .hero-meta span {
-      opacity: 0.9;
-    }
-
-    .hero-meta-note {
-      font-size: 0.8rem;
-      color: var(--muted);
-      max-width: 26rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .hero-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.9rem;
-      font-size: 0.82rem;
-      margin-bottom: 1.4rem;
-    }
-
-    .hero-short-links {
-      font-size: 0.8rem;
-      color: var(--muted);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .hero-short-links a {
-      color: var(--muted);
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 3px;
-    }
-
-    .cta-pill {
+    .btn {
       display: inline-flex;
       align-items: center;
-      gap: 0.45rem;
-      padding: 0.45rem 0.9rem;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
       border-radius: 999px;
-      border: 1px solid rgba(158, 243, 122, 0.6);
-      background: radial-gradient(circle at 10% 0%, rgba(158, 243, 122, 0.18), rgba(2, 9, 8, 0.9));
+      font-size: 0.92rem;
+      font-weight: 650;
+      transition: transform 0.18s ease, opacity 0.18s ease, border-color 0.18s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #07110d;
+      box-shadow: 0 14px 36px rgba(77, 208, 138, 0.18);
+    }
+
+    .btn-secondary {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.03);
       color: var(--text);
-      font-weight: 500;
     }
 
-    .cta-pill span {
-      font-size: 0.9rem;
-    }
-
-    .cta-ghost {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      padding: 0.45rem 0.9rem;
-      border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.09);
-      color: var(--muted);
-    }
-
-    .cta-ghost svg,
-    .cta-pill svg {
-      width: 13px;
-      height: 13px;
-    }
-
-    .hero-signals {
-      background: linear-gradient(
-        135deg,
-        rgba(10, 56, 38, 0.95),
-        rgba(9, 38, 32, 0.9)
-      );
-      border-radius: 1rem;
-      padding: 1.1rem 1.2rem;
-      border: 1px solid var(--border);
-      box-shadow: 0 18px 32px rgba(0, 0, 0, 0.55);
-      position: relative;
+    .hero-right {
+      border-radius: 28px;
+      background:
+        linear-gradient(180deg, rgba(14, 20, 16, 0.96), rgba(9, 13, 11, 0.96));
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
       overflow: hidden;
-      animation: subtle-float 10s ease-in-out infinite alternate;
+      position: relative;
     }
 
-    .hero-signals::before {
+    .hero-right::before {
       content: "";
       position: absolute;
-      inset: -40%;
-      background:
-        radial-gradient(circle at 0 0, rgba(158, 243, 122, 0.12), transparent 60%),
-        radial-gradient(circle at 110% 0, rgba(70, 208, 140, 0.12), transparent 60%);
-      opacity: 0.8;
+      top: -80px;
+      right: -80px;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(157, 226, 127, 0.12), transparent 70%);
       pointer-events: none;
     }
 
-    @keyframes subtle-float {
-      from { transform: translateY(0px); }
-      to { transform: translateY(-2px); }
+    .hero-panel-top {
+      padding: 22px 22px 14px;
+      border-bottom: 1px solid var(--line-soft);
     }
 
-    .signals-label {
+    .panel-label {
       font-size: 0.72rem;
-      text-transform: uppercase;
+      color: var(--muted);
       letter-spacing: 0.16em;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
-      position: relative;
-      z-index: 1;
-    }
-
-    .signals-grid {
-      position: relative;
-      z-index: 1;
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 0.8rem;
-      font-size: 0.83rem;
-    }
-
-    .signal-pill {
-      padding: 0.55rem 0.7rem;
-      border-radius: 0.75rem;
-      background: rgba(3, 18, 14, 0.7);
-      border: 1px solid rgba(112, 201, 165, 0.5);
-      display: flex;
-      flex-direction: column;
-      gap: 0.18rem;
-    }
-
-    .signal-title {
-      font-size: 0.76rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: var(--accent-strong);
+      margin-bottom: 10px;
     }
 
-    .signal-copy {
-      font-size: 0.78rem;
+    .panel-title {
+      font-size: 1.08rem;
+      font-weight: 650;
+      margin-bottom: 8px;
+    }
+
+    .panel-copy {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .panel-body {
+      padding: 18px 22px 22px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .surface {
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.025);
+      padding: 14px;
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .surface-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, rgba(157,226,127,0.12), rgba(77,208,138,0.1));
+      border: 1px solid rgba(157,226,127,0.14);
+    }
+
+    .surface-icon svg {
+      width: 24px;
+      height: 24px;
+      stroke: var(--accent);
+    }
+
+    .surface-kicker {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      margin-bottom: 2px;
+    }
+
+    .surface-title {
+      font-size: 0.96rem;
+      font-weight: 650;
+      margin-bottom: 2px;
+    }
+
+    .surface-copy {
+      font-size: 0.85rem;
       color: var(--muted);
     }
 
-    /* Section titles */
-    .section-header {
-      display: flex;
+    .surface-link {
+      margin-top: 2px;
+      display: inline-flex;
       align-items: center;
+      gap: 6px;
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .section-head {
+      display: flex;
       justify-content: space-between;
-      gap: 1rem;
-      margin-bottom: 1.4rem;
+      align-items: end;
+      gap: 20px;
+      margin-bottom: 22px;
     }
 
     .section-kicker {
-      font-size: 0.72rem;
+      font-size: 0.73rem;
       text-transform: uppercase;
       letter-spacing: 0.16em;
       color: var(--muted);
-      margin-bottom: 0.2rem;
+      margin-bottom: 8px;
     }
 
-    .section-title {
-      font-size: 1.15rem;
-      font-weight: 500;
+    h2 {
+      font-size: clamp(1.7rem, 3vw, 2.5rem);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      font-weight: 700;
     }
 
-    .section-title span {
-      color: var(--accent-strong);
-    }
-
-    .section-intro {
-      font-size: 0.9rem;
+    .section-copy {
+      max-width: 62ch;
       color: var(--muted);
-      max-width: 36rem;
-      margin-top: 0.3rem;
+      font-size: 0.98rem;
+      margin-top: 10px;
     }
 
-    .section-divider {
-      border-bottom: 1px solid var(--divider);
-      margin: -0.4rem 0 1.4rem;
-    }
-
-    /* Banded sections */
-    .band-alt {
-      background: radial-gradient(circle at 50% 0, rgba(20, 90, 60, 0.4), transparent 55%);
-      border-radius: 1.5rem;
-      border: 1px solid rgba(255, 255, 255, 0.04);
-      padding: 2rem 1.6rem 2.2rem;
-      margin-inline: -0.3rem;
-    }
-
-    /* Focus / Investment role */
-    .focus-grid {
+    .grid-2 {
       display: grid;
-      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.4fr);
-      gap: 1.4rem;
-      margin-bottom: 1.6rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
     }
 
-    .focus-card {
-      background: var(--bg-soft);
-      border-radius: 1rem;
-      padding: 1rem 1.1rem;
-      border: 1px solid var(--border);
-      font-size: 0.9rem;
-      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
     }
 
-    .focus-card h3 {
-      font-size: 0.85rem;
+    .card {
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(15, 20, 17, 0.94), rgba(11, 15, 13, 0.94));
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .card.soft {
+      background: linear-gradient(180deg, rgba(16, 23, 19, 0.82), rgba(10, 14, 12, 0.88));
+    }
+
+    .card h3 {
+      font-size: 1.06rem;
+      font-weight: 650;
+      margin-bottom: 10px;
+      letter-spacing: -0.01em;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .card p + p {
+      margin-top: 10px;
+    }
+
+    .mini {
+      font-size: 0.72rem;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      margin-bottom: 0.45rem;
-      color: var(--muted);
+      letter-spacing: 0.16em;
+      color: var(--accent);
+      margin-bottom: 10px;
     }
 
-    .focus-card p + p {
-      margin-top: 0.55rem;
-    }
-
-    .focus-list {
-      margin-top: 0.55rem;
-      padding-left: 1.1rem;
-      font-size: 0.86rem;
-      color: var(--muted);
-    }
-
-    .focus-list li + li {
-      margin-top: 0.25rem;
-    }
-
-    /* Portfolio */
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-      gap: 1.4rem;
-    }
-
-    .portfolio-item {
-      background: var(--surface);
-      border-radius: 1rem;
-      padding: 1rem 1.1rem;
-      border: 1px solid var(--border);
-      font-size: 0.9rem;
-      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-    }
-
-    .portfolio-item h3 {
-      font-size: 0.95rem;
-      margin-bottom: 0.35rem;
-    }
-
-    .tagline {
-      font-size: 0.82rem;
-      color: var(--muted);
-      margin-bottom: 0.45rem;
-    }
-
-    .meta {
-      font-size: 0.84rem;
-      color: var(--muted);
-    }
-
-    .meta strong {
-      color: var(--text);
-      font-weight: 500;
-    }
-
-    /* Approach */
-    .approach-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.2fr);
-      gap: 1.4rem;
-    }
-
-    .approach-list {
+    .feature-list {
       list-style: none;
-      font-size: 0.88rem;
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .feature-list li {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 10px;
       color: var(--muted);
+      font-size: 0.9rem;
     }
 
-    .approach-list li {
-      display: flex;
-      gap: 0.6rem;
-      margin-bottom: 0.6rem;
+    .feature-list li::before {
+      content: "•";
+      color: var(--accent);
+      font-size: 1rem;
+      line-height: 1.2;
     }
 
-    .approach-marker {
-      margin-top: 0.25rem;
-      width: 8px;
-      height: 8px;
+    .domain-line {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--line);
+      font-size: 0.78rem;
+      color: var(--soft);
+      word-break: break-all;
+    }
+
+    .domain-line::before {
+      content: "";
+      width: 7px;
+      height: 7px;
       border-radius: 999px;
       background: var(--accent);
-      box-shadow: 0 0 8px rgba(70, 208, 140, 0.8);
-      flex-shrink: 0;
+      box-shadow: 0 0 10px rgba(157,226,127,0.5);
+      flex: 0 0 auto;
     }
 
-    .approach-note {
-      font-size: 0.8rem;
-      color: var(--muted);
-      margin-top: 0.45rem;
+    .bridge {
+      border-radius: 28px;
+      background:
+        radial-gradient(circle at 100% 0, rgba(157,226,127,0.08), transparent 30%),
+        linear-gradient(180deg, rgba(14, 21, 17, 0.96), rgba(10, 14, 12, 0.96));
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      padding: 26px;
     }
 
-    /* FAQ */
-    .faq-grid {
+    .bridge-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-      gap: 1.2rem;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 20px;
+      align-items: center;
     }
 
-    .faq-item {
-      background: var(--bg-soft);
-      border-radius: 1rem;
-      padding: 0.9rem 1rem;
-      border: 1px solid var(--border);
+    .logic {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .logic-row {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .logic-num {
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      display: grid;
+      place-items: center;
+      background: rgba(157,226,127,0.08);
+      border: 1px solid rgba(157,226,127,0.2);
+      color: var(--accent);
+      font-size: 0.84rem;
+      font-weight: 700;
+    }
+
+    .logic-row h4 {
+      font-size: 0.96rem;
+      margin-bottom: 4px;
+    }
+
+    .logic-row p {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .visual-stack {
+      display: grid;
+      gap: 12px;
+    }
+
+    .visual-box {
+      border-radius: 20px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.03);
+    }
+
+    .visual-box strong {
+      display: block;
+      font-size: 0.94rem;
+      margin-bottom: 6px;
+    }
+
+    .visual-box span {
+      color: var(--muted);
       font-size: 0.88rem;
     }
 
-    .faq-item h3 {
-      font-size: 0.86rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      margin-bottom: 0.45rem;
+    .contact-wrap {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 18px;
+    }
+
+    .email {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 14px;
+      font-size: 1rem;
+      font-weight: 650;
+      color: var(--soft);
+    }
+
+    .note {
       color: var(--muted);
-    }
-
-    .faq-item p + p {
-      margin-top: 0.4rem;
-    }
-
-    /* Contact */
-    #contact p {
-      font-size: 0.9rem;
-      margin-bottom: 0.4rem;
-    }
-
-    .contact-card {
-      background: var(--bg-soft);
-      border-radius: 1rem;
-      padding: 1rem 1.1rem;
-      border: 1px solid var(--border);
-      max-width: 32rem;
-      font-size: 0.9rem;
-      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-    }
-
-    .contact-note {
-      font-size: 0.78rem;
-      color: var(--muted);
-      margin-top: 0.45rem;
-    }
-
-    .contact-brief {
-      margin-top: 0.6rem;
-      font-size: 0.8rem;
-    }
-
-    /* Shared hover behaviour for cards */
-    .portfolio-item:hover,
-    .focus-card:hover,
-    .contact-card:hover,
-    .faq-item:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 18px 32px rgba(0, 0, 0, 0.6);
-      border-color: rgba(158, 243, 122, 0.65);
+      font-size: 0.88rem;
+      margin-top: 14px;
     }
 
     footer {
-      border-top: 1px solid var(--divider);
-      padding: 1.2rem 1.25rem 1.6rem;
-      font-size: 0.78rem;
+      border-top: 1px solid var(--line-soft);
+      padding: 24px 0 58px;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: start;
+      flex-wrap: wrap;
       color: var(--muted);
-      text-align: center;
+      font-size: 0.83rem;
     }
 
-    footer .footer-note {
-      display: block;
-      margin-top: 0.35rem;
-      font-size: 0.74rem;
-      color: rgba(152, 165, 160, 0.9);
+    .footer-right {
+      max-width: 72ch;
     }
 
-    @media (max-width: 840px) {
-      #home,
-      .focus-grid,
-      .portfolio-grid,
-      .approach-grid,
-      .faq-grid {
-        grid-template-columns: minmax(0, 1fr);
+    @media (max-width: 980px) {
+      .hero,
+      .bridge-grid,
+      .contact-wrap,
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 760px) {
+      header {
+        position: static;
       }
 
-      .hero-signals {
-        order: -1;
-      }
-
-      .nav-inner {
+      .nav {
         flex-direction: column;
         align-items: flex-start;
+        padding: 14px 0;
       }
 
       nav ul {
-        gap: 0.9rem;
-        font-size: 0.76rem;
-        margin-top: 0.2rem;
+        gap: 14px;
       }
 
-      .band-alt {
-        padding-inline: 1.1rem;
+      .grid-2,
+      .grid-3 {
+        grid-template-columns: 1fr;
       }
-    }
 
-    @media (max-width: 640px) {
-      main {
-        padding-top: 2.1rem;
+      .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
       }
-      .hero-title {
-        font-size: 1.9rem;
+
+      .btn {
+        width: 100%;
       }
-      .signals-grid {
-        grid-template-columns: minmax(0, 1fr);
+
+      .surface {
+        grid-template-columns: 44px 1fr;
+      }
+
+      .surface-icon {
+        width: 44px;
+        height: 44px;
       }
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="nav-inner">
-      <div class="brand">
-        <img src="logo-decarb123.png" alt="Decarb123 logo" class="brand-logo">
-        <span class="brand-text">Decarb123 Pte Ltd</span>
-      </div>
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="Decarb123 home">
+        <img src="logo-decarb123.png" alt="Decarb123 logo">
+        <div class="brand-stack">
+          <div class="brand-name">Decarb123 Pte Ltd</div>
+          <div class="brand-sub">Private investment holding company</div>
+        </div>
+      </a>
+
       <nav aria-label="Primary navigation">
         <ul>
-          <li><a href="#home">Thesis</a></li>
-          <li><a href="#focus">Focus</a></li>
+          <li><a href="#positioning">Positioning</a></li>
+          <li><a href="#subdomains">Subdomains</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#approach">Approach</a></li>
+          <li><a href="#logic">Logic</a></li>
           <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -702,402 +734,364 @@
     </div>
   </header>
 
-  <main>
-    <!-- Hero / Thesis -->
-    <section id="home">
+  <main id="top">
+    <section class="container hero">
       <div>
-        <div class="hero-badge">
-          <span class="hero-dot"></span>
-          <span>Private Investment Holding · Southeast Asia</span>
-        </div>
-        <h1 class="hero-title">
-          Backing <span>circular</span>, low-carbon and
-          <span>sustainability</span> ventures across Southeast Asia.
+        <div class="eyebrow">Singapore · Southeast Asia · Quiet capital</div>
+
+        <h1>
+          Building a <span class="gradient">selective platform</span> for circular and low-carbon ventures.
         </h1>
-        <p class="hero-subtitle">
-          Decarb123 Pte Ltd is a Singapore-based private investment holding company.
-          We support ventures that turn waste into value, build circular flows and
-          deliver measurable environmental outcomes.
+
+        <p class="hero-copy">
+          Decarb123 Pte Ltd is a <strong>private investment holding company</strong> backing selective ventures across circular economy, waste-to-resource, and low-carbon transition themes.
         </p>
-        <p class="hero-subtitle">
-          Our role is quiet and long-term: governance, strategy and alignment behind
-          the operators, not in front of them.
+
+        <p class="hero-copy">
+          Our role is not to sit in front of every venture. It is to <strong>allocate capital, shape governance, structure partnerships, and support long-term value creation</strong> behind the operating surfaces.
         </p>
-        <div class="hero-meta">
-          <span>Circular economy</span>
-          <span>Waste-to-resource</span>
-          <span>Low-carbon transitions</span>
+
+        <div class="hero-band">
+          The right design for Decarb123 is not one crowded corporate website. It is one disciplined parent platform, with focused subdomains underneath it where different audiences and use cases can live clearly.
         </div>
-        <p class="hero-meta-note">
-          We prefer to stay behind the operating entities. This page is a reference
-          point for counterparties, not a public pitch deck.
-        </p>
-        <div class="hero-links">
-          <a href="#portfolio" class="cta-pill">
-            <span>See where we are currently exposed</span>
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 12h10M13 8l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-          <a href="#contact" class="cta-ghost">
-            <span>Investor &amp; partner enquiries</span>
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M5 12h8M13 12l-2-2m2 2-2 2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-        </div>
-        <div class="hero-short-links">
-          <span>➜ <a href="#focus">Our investment focus</a></span>
-          <span>➜ <a href="#approach">How we evaluate ventures</a></span>
-          <span>➜ <a href="#faq">Frequently asked questions</a></span>
+
+        <div class="hero-actions">
+          <a href="#subdomains" class="btn btn-primary">See platform structure</a>
+          <a href="#portfolio" class="btn btn-secondary">View current exposure</a>
+          <a href="https://home.decarb123.com/" class="btn btn-secondary" target="_blank" rel="noopener">Visit home.decarb123.com</a>
         </div>
       </div>
 
-      <aside class="hero-signals" aria-label="Signals we watch">
-        <div class="signals-label">Signals we watch</div>
-        <div class="signals-grid">
-          <div class="signal-pill">
-            <div class="signal-title">Real circularity</div>
-            <div class="signal-copy">
-              Ventures that move away from linear “take-make-dispose” flows
-              and build durable, repeatable loops.
+      <aside class="hero-right">
+        <div class="hero-panel-top">
+          <div class="panel-label">Platform architecture</div>
+          <div class="panel-title">One parent brand. Distinct surfaces underneath.</div>
+          <div class="panel-copy">
+            The main domain should establish trust and signal seriousness. Subdomains should do the audience-specific work.
+          </div>
+        </div>
+
+        <div class="panel-body">
+          <div class="surface">
+            <div class="surface-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 7h16M7 4h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="surface-kicker">Parent platform</div>
+              <div class="surface-title">www.decarb123.com</div>
+              <div class="surface-copy">Holding company positioning, exposure, philosophy and counterparties.</div>
             </div>
           </div>
-          <div class="signal-pill">
-            <div class="signal-title">Carbon impact</div>
-            <div class="signal-copy">
-              Clear pathways to emissions reduction, avoidance or sequestration,
-              grounded in real-world operations.
+
+          <div class="surface">
+            <div class="surface-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M5 12h14M12 5l7 7-7 7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="surface-kicker">Consumer utility</div>
+              <div class="surface-title">home.decarb123.com</div>
+              <div class="surface-copy">Household energy problem-solving and practical user guidance.</div>
+              <a class="surface-link" href="https://home.decarb123.com/" target="_blank" rel="noopener">Open live subdomain →</a>
             </div>
           </div>
-          <div class="signal-pill">
-            <div class="signal-title">Execution depth</div>
-            <div class="signal-copy">
-              Technical operators and implementation partners with the ability
-              to deploy at site, not just on slides.
+
+          <div class="surface">
+            <div class="surface-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M6 18 18 6M9 6h9v9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
             </div>
-          </div>
-          <div class="signal-pill">
-            <div class="signal-title">Measured outcomes</div>
-            <div class="signal-copy">
-              The ability to evidence environmental performance through data,
-              verification and lived project results.
+            <div>
+              <div class="surface-kicker">Future modules</div>
+              <div class="surface-title">Additional subdomains as needed</div>
+              <div class="surface-copy">Tools, products, venture surfaces or campaigns without diluting the parent identity.</div>
             </div>
           </div>
         </div>
       </aside>
     </section>
 
-    <!-- Focus -->
-    <section id="focus">
-      <div class="section-header">
+    <section class="container" id="positioning">
+      <div class="section-head">
         <div>
-          <div class="section-kicker">Investment focus</div>
-          <h2 class="section-title">A holding company for <span>real-world</span> sustainability ventures</h2>
-          <p class="section-intro">
-            Decarb123 focuses on circular economy, waste-to-resource and low-carbon models
-            that can be deployed in the real economy across Southeast Asia.
+          <div class="section-kicker">Positioning</div>
+          <h2>What the parent site should <span class="gradient">signal</span></h2>
+          <p class="section-copy">
+            The homepage should feel more like a disciplined capital platform than a broad operating company.
           </p>
         </div>
       </div>
-      <div class="section-divider"></div>
-      <div class="focus-grid">
-        <div class="focus-card">
-          <h3>Our role</h3>
+
+      <div class="grid-3">
+        <article class="card">
+          <div class="mini">Identity</div>
+          <h3>Quiet, selective, long-term</h3>
           <p>
-            Decarb123 Pte Ltd is a private investment holding company incorporated in
-            Singapore in 2024. We do not operate as a consulting firm under the
-            Decarb123 name.
+            The tone should suggest conviction and patience, not noise. This is a holding-company site, not a public sales brochure.
           </p>
+        </article>
+
+        <article class="card">
+          <div class="mini">Role</div>
+          <h3>Capital, governance, structure</h3>
           <p>
-            Instead, we hold equity interests, provide governance oversight and help
-            structure capital and partnerships around a focused set of sustainability
-            ventures.
+            Decarb123 should be seen as the platform shaping exposure, capital logic and alignment — while operating entities take the lead in the field.
           </p>
-          <ul class="focus-list">
-            <li>Incubation and ownership of sustainability-linked ventures.</li>
-            <li>Strategic input on business models, capital structure and partnerships.</li>
-            <li>Oversight and governance at the holding-company level.</li>
+        </article>
+
+        <article class="card">
+          <div class="mini">Design implication</div>
+          <h3>Minimal and intentional</h3>
+          <p>
+            Less clutter, fewer claims, better architecture. The parent site should feel edited, not crowded.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="subdomains">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">Subdomain strategy</div>
+          <h2>Use subdomains as <span class="gradient">purpose-built operating surfaces</span></h2>
+          <p class="section-copy">
+            Different audiences should not be forced through the same website. Let each surface do its own job well.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <article class="card soft">
+          <div class="domain-line">www.decarb123.com</div>
+          <h3>Corporate parent</h3>
+          <p>
+            This should remain institutional, restrained and trust-building. It should answer who Decarb123 is, what it backs and how counterparties should engage.
+          </p>
+          <ul class="feature-list">
+            <li>Holding-company positioning</li>
+            <li>Portfolio context</li>
+            <li>Governance philosophy</li>
+            <li>Investor and partner contact point</li>
           </ul>
-        </div>
+        </article>
 
-        <div class="focus-card">
-          <h3>Not an operating arm</h3>
+        <article class="card soft">
+          <div class="domain-line">home.decarb123.com</div>
+          <h3>Consumer energy utility</h3>
           <p>
-            Operational consulting, project delivery and day-to-day execution are carried
-            out by portfolio entities and implementation partners, not by Decarb123 itself.
+            This is the right place for practical problem-solving, SEO, user testing, affiliate monetisation and behavioural learning.
           </p>
-          <p>
-            This separation keeps our role focused, transparent and free from delivery
-            conflicts, while allowing portfolio companies to build their own brand and
-            capabilities.
-          </p>
-          <ul class="focus-list">
-            <li>Portfolio companies lead on client work and implementation.</li>
-            <li>Decarb123 remains lean, long-term and selective.</li>
-            <li>New opportunities are evaluated conservatively and confidentially.</li>
+          <ul class="feature-list">
+            <li>Everyday energy pain points</li>
+            <li>Problem solver and recommendations</li>
+            <li>Conversion-focused user flow</li>
+            <li>Independent optimisation from the parent site</li>
           </ul>
-        </div>
-      </div>
+          <p style="margin-top:14px;">
+            <a href="https://home.decarb123.com/" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 650;">Visit the live utility →</a>
+          </p>
+        </article>
 
-      <div class="focus-card">
-        <h3>What we look for</h3>
-        <p>
-          We selectively engage with ventures that meet three simple tests:
-        </p>
-        <ul class="focus-list">
-          <li>
-            Measurable environmental impact — in circularity, carbon reduction or
-            resource recovery.
-          </li>
-          <li>
-            Operators with technical depth and demonstrated ability to execute projects
-            in the field.
-          </li>
-          <li>
-            Commercial models with a credible path to sustainable scale in Southeast Asia.
-          </li>
-        </ul>
+        <article class="card soft">
+          <div class="domain-line">future subdomains</div>
+          <h3>Modular expansion</h3>
+          <p>
+            As the platform grows, you can launch separate surfaces for tools, insights, ventures or campaigns without making the parent site confusing.
+          </p>
+          <ul class="feature-list">
+            <li>tools.decarb123.com</li>
+            <li>insights.decarb123.com</li>
+            <li>ventures.decarb123.com</li>
+            <li>one-off strategic microsites if needed</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio">
-      <div class="band-alt">
-        <div class="section-header">
-          <div>
-            <div class="section-kicker">Portfolio</div>
-            <h2 class="section-title">Selected <span>current holdings</span></h2>
-            <p class="section-intro">
-              Decarb123 currently holds an equity interest in a focused sustainability
-              venture. Other opportunities are considered selectively and kept off the
-              public record until appropriate to announce.
-            </p>
+    <section class="container bridge" id="logic">
+      <div class="bridge-grid">
+        <div>
+          <div class="section-kicker">Why this architecture works</div>
+          <h2 style="font-size: clamp(1.8rem, 3vw, 2.7rem);">Institutional outside. Modular underneath.</h2>
+          <p class="section-copy">
+            This is the cleanest way to let Decarb123 behave like a serious platform company while still allowing targeted experiments and monetisable public utilities to exist.
+          </p>
+
+          <div class="logic">
+            <div class="logic-row">
+              <div class="logic-num">1</div>
+              <div>
+                <h4>Main site establishes trust</h4>
+                <p>The parent domain gives visitors a stable explanation of who Decarb123 is and what role it plays.</p>
+              </div>
+            </div>
+
+            <div class="logic-row">
+              <div class="logic-num">2</div>
+              <div>
+                <h4>Subdomain solves a specific problem</h4>
+                <p>A focused surface like <strong>home.decarb123.com</strong> should be practical, audience-specific and outcome-driven.</p>
+              </div>
+            </div>
+
+            <div class="logic-row">
+              <div class="logic-num">3</div>
+              <div>
+                <h4>Each surface can evolve independently</h4>
+                <p>The parent site can remain disciplined while the subdomain can test content, monetisation and user journeys faster.</p>
+              </div>
+            </div>
+
+            <div class="logic-row">
+              <div class="logic-num">4</div>
+              <div>
+                <h4>Authority compounds across the system</h4>
+                <p>Internal links between the parent domain and subdomains improve coherence, discovery and long-term search value.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="section-divider"></div>
 
-        <div class="portfolio-grid">
-          <article class="portfolio-item">
-            <h3>Circular Transition Partners (CTP)</h3>
-            <p class="tagline">Sustainability advisory, feasibility design and funding support</p>
-            <p class="meta">
-              <strong>Role:</strong> Shareholder and strategic partner.<br />
-              <strong>Focus:</strong> Advisory, feasibility studies and implementation support
-              for organisations in Singapore and the wider region that are transitioning
-              towards low-carbon and circular business models.<br />
-              <strong>More info:</strong>
-              <a href="https://www.circulartransitionpartners.com/" target="_blank" rel="noopener">
-                www.circulartransitionpartners.com
-              </a>
-            </p>
-          </article>
-
-          <article class="portfolio-item">
-            <h3>Venture pipeline</h3>
-            <p class="tagline">Selective opportunities under review</p>
-            <p class="meta">
-              Decarb123 continues to review potential investments in circular economy,
-              waste-to-resource and climate-related ventures. We do not publish deal flow.
-              Where relevant, details are shared directly with aligned counterparties on a
-              confidential, bilateral basis.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Approach -->
-    <section id="approach">
-      <div class="band-alt">
-        <div class="section-header">
-          <div>
-            <div class="section-kicker">How we work</div>
-            <h2 class="section-title">Quiet, <span>hands-on</span> and long-term</h2>
-            <p class="section-intro">
-              Our approach is to stay close enough to matter, and far enough away to let
-              operators operate.
-            </p>
+        <div class="visual-stack">
+          <div class="visual-box">
+            <strong>Main site visual language</strong>
+            <span>Dark, restrained, editorial, capital-platform feel.</span>
           </div>
-        </div>
-        <div class="section-divider"></div>
-
-        <div class="approach-grid">
-          <div>
-            <ul class="approach-list">
-              <li>
-                <div class="approach-marker"></div>
-                <div>
-                  <strong>Selective entry.</strong> We prefer to work with a small number of
-                  ventures where our involvement is clearly additive and aligned with long-term
-                  sustainability outcomes.
-                </div>
-              </li>
-              <li>
-                <div class="approach-marker"></div>
-                <div>
-                  <strong>Aligned incentives.</strong> We look for structures where founders,
-                  operating partners and Decarb123 share a common view of value creation and
-                  impact, not just short-term revenue.
-                </div>
-              </li>
-              <li>
-                <div class="approach-marker"></div>
-                <div>
-                  <strong>Structured governance.</strong> We focus on boards, reporting lines
-                  and decision rights that keep ventures accountable without suffocating
-                  innovation.
-                </div>
-              </li>
-              <li>
-                <div class="approach-marker"></div>
-                <div>
-                  <strong>Real-world validation.</strong> Preference is given to ventures with
-                  tangible projects, paying customers or credible pathways to deployment rather
-                  than purely conceptual propositions.
-                </div>
-              </li>
-            </ul>
+          <div class="visual-box">
+            <strong>Subdomain visual language</strong>
+            <span>Brighter, more tactical, more action-oriented and conversion-led.</span>
           </div>
-
-          <div class="focus-card">
-            <h3>What we are not</h3>
-            <p>
-              Decarb123 is not a fund manager, public vehicle or advisory shop. We do not
-              solicit capital from the public, and we do not market consulting services
-              under the Decarb123 name.
-            </p>
-            <p class="approach-note">
-              All operational engagements, client-facing work and project delivery are run
-              through portfolio companies and implementation partners. This site is a
-              high-level overview of Decarb123’s role as an investment holding company only.
-            </p>
+          <div class="visual-box">
+            <strong>Shared brand root</strong>
+            <span>Common logo, naming and strategic coherence — without forcing identical behaviour across all surfaces.</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section id="faq">
-      <div class="section-header">
+    <section class="container" id="portfolio">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">Selected exposure</div>
+          <h2>Current <span class="gradient">holdings and live surfaces</span></h2>
+          <p class="section-copy">
+            Keep the public record selective. Enough to establish credibility, not so much that the parent site becomes noisy.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <article class="card">
+          <div class="mini">Selected holding</div>
+          <h3>Circular Transition Partners (CTP)</h3>
+          <p>
+            Sustainability advisory, feasibility design and funding support under its own operating brand.
+          </p>
+          <p>
+            <strong>Role:</strong> Shareholder and strategic partner.<br />
+            <strong>More info:</strong>
+            <a href="https://www.circulartransitionpartners.com/" target="_blank" rel="noopener" style="color: var(--accent);">www.circulartransitionpartners.com</a>
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="mini">Live utility surface</div>
+          <h3>Home Energy Problem Solver</h3>
+          <p>
+            A consumer-facing subdomain helping homeowners reduce electricity bills, improve comfort and make better household decisions.
+          </p>
+          <p>
+            <a href="https://home.decarb123.com/" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 650;">Open home.decarb123.com →</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="faq">
+      <div class="section-head">
         <div>
           <div class="section-kicker">FAQ</div>
-          <h2 class="section-title">Frequently asked <span>questions</span></h2>
-          <p class="section-intro">
-            A brief reference for counterparties who encounter Decarb123 alongside
-            portfolio companies and partners.
-          </p>
+          <h2>Frequently asked <span class="gradient">questions</span></h2>
         </div>
       </div>
-      <div class="section-divider"></div>
 
-      <div class="faq-grid">
-        <div class="faq-item">
-          <h3>What type of ventures does Decarb123 support?</h3>
+      <div class="grid-2">
+        <article class="card">
+          <h3>Is Decarb123 a consulting firm?</h3>
           <p>
-            Decarb123 focuses on circular economy, waste-to-resource and low-carbon models
-            that can be deployed in the real economy. We look for ventures with measurable
-            environmental outcomes and a credible path to sustainable scale in Southeast Asia.
+            No. Decarb123 should be understood as a private investment holding company and parent platform, not as a consulting delivery brand.
           </p>
-        </div>
+        </article>
 
-        <div class="faq-item">
-          <h3>Does Decarb123 operate as a consulting firm?</h3>
+        <article class="card">
+          <h3>Why use subdomains?</h3>
           <p>
-            No. Decarb123 is a private investment holding company. Any consulting, advisory
-            or project delivery work is carried out by portfolio entities and implementation
-            partners, not by Decarb123 itself.
+            Because different audiences need different journeys. The parent site builds trust; the subdomains do the targeted work.
           </p>
-        </div>
+        </article>
 
-        <div class="faq-item">
-          <h3>Does Decarb123 accept external investors?</h3>
+        <article class="card">
+          <h3>Can more subdomains be added?</h3>
           <p>
-            Decarb123 does not market investment products or solicit capital from the public.
-            Engagements are conducted on a direct, bilateral basis with relevant counterparties.
+            Yes. This architecture is intentionally modular so Decarb123 can launch focused tools, insights or venture surfaces when strategically useful.
           </p>
-        </div>
+        </article>
 
-        <div class="faq-item">
-          <h3>What is Decarb123’s relationship with Circular Transition Partners?</h3>
+        <article class="card">
+          <h3>What is this website for?</h3>
           <p>
-            Decarb123 is a shareholder and strategic partner in Circular Transition Partners
-            (CTP). CTP is an independent entity that provides sustainability advisory,
-            feasibility design and funding support under its own brand.
+            It is a reference point for counterparties, partners and aligned collaborators seeking context on Decarb123’s role and positioning.
           </p>
-        </div>
-
-        <div class="faq-item">
-          <h3>How can potential partners engage with Decarb123?</h3>
-          <p>
-            Potential partners typically engage through existing portfolio entities or via
-            direct email. We review opportunities selectively and respond where there is a
-            clear fit with our focus areas and approach.
-          </p>
-        </div>
-
-        <div class="faq-item">
-          <h3>Is this website marketing any specific transaction?</h3>
-          <p>
-            No. This site is informational only. It provides context on Decarb123’s role as
-            a holding company and its general areas of interest, rather than marketing any
-            specific deal, transaction or mandate.
-          </p>
-        </div>
+        </article>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="section-header">
+    <section class="container" id="contact">
+      <div class="section-head">
         <div>
           <div class="section-kicker">Contact</div>
-          <h2 class="section-title">Investment &amp; partnership <span>enquiries</span></h2>
+          <h2>Investment and partnership <span class="gradient">enquiries</span></h2>
         </div>
       </div>
-      <div class="section-divider"></div>
 
-      <div class="contact-card">
-        <p>
-          For investment, partnership or portfolio-related enquiries, please get in touch
-          via email:
-        </p>
-        <p><strong>Email:</strong> <a href="mailto:hello@decarb123.com">hello@decarb123.com</a></p>
-        <p class="contact-note">
-          Decarb123 does not offer direct consulting services. Operational engagements are
-          delivered by portfolio companies and implementation partners.
-        </p>
-        <p class="contact-brief">
-          <!--
-          OPTIONAL: When you have a PDF, place it at /files/decarb123-brief.pdf
-          and then you can safely uncomment the link below.
-          -->
-          <!--
-          <a href="/files/decarb123-brief.pdf" target="_blank" rel="noopener">
-            Download high-level company brief (PDF)
-          </a>
-          -->
-        </p>
+      <div class="contact-wrap">
+        <article class="card">
+          <div class="mini">Direct contact</div>
+          <h3>Get in touch</h3>
+          <p>
+            For investment, partnership, platform or portfolio-related discussions, please contact us directly.
+          </p>
+          <a href="mailto:hello@decarb123.com" class="email">hello@decarb123.com</a>
+          <p class="note">
+            Operational consulting and project delivery should sit with relevant portfolio entities or implementation partners, not the parent holding-company site.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="mini">Important note</div>
+          <h3>Informational only</h3>
+          <p>
+            This website is informational only. It does not constitute an offer to invest, an invitation to acquire securities, or a solicitation of public capital.
+          </p>
+          <p>
+            Public-facing tools or utility experiences may sit on dedicated Decarb123 subdomains where relevant.
+          </p>
+        </article>
       </div>
     </section>
-
-    <!--
-    Future section stub: if you ever want to publish a memo or thesis,
-    you can uncomment and use this block.
-
-    <section id="notes">
-      ...
-    </section>
-    -->
   </main>
 
   <footer>
-    © 2025 Decarb123 Pte Ltd. All rights reserved. Registered office: 4 Battery Road, Singapore.
-    <span class="footer-note">
-      This site is informational only. It does not constitute an offer to invest, an invitation
-      to acquire securities, or a solicitation to provide advisory or consulting services.
-      Decarb123 does not solicit capital from the public.
-    </span>
+    <div class="container footer">
+      <div>© 2026 Decarb123 Pte Ltd. Registered office: 4 Battery Road, Singapore.</div>
+      <div class="footer-right">
+        This site is a parent-platform reference point only. It is not an operating-company site, retail product page or public capital solicitation.
+      </div>
+    </div>
   </footer>
 </body>
 </html>
